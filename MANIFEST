@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+lib/Math/DyckWords.pm
+t/Math-DyckWords.t
