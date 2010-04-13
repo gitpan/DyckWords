@@ -5,10 +5,10 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME              => 'Math::DyckWords',
     VERSION_FROM      => 'lib/Math/DyckWords.pm',
-    PREREQ_PM         => {},
+    PREREQ_PM         => { 'Math::BigInt' },
     ( $] >= 5.005
         ? ( ABSTRACT_FROM  => 'lib/Math/DyckWords.pm',
-            AUTHOR         => 'Mark Mertel <mark.mertel@yahoo.com>' )
+            AUTHOR         => 'Mark Mertel <mmertel@cpan.org>' )
         : ()
     ),
 );
